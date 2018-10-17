@@ -12,8 +12,6 @@ const SkillItemContainer = styled.div`
 const Skill = styled.li``
 
 const SkillItem = (props) => {
-    console.log(props);
-    
     return (
         <SkillItemContainer>
             <div>{props.data.name}</div>

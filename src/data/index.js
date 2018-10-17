@@ -21,6 +21,13 @@ const app = [
         }
     }, 
     {
+        name: 'Nick Freeman Design',
+        repo: {
+            name: 'github',
+            url: 'https://github.com/nickfreemandesign/'
+        }
+    }, 
+    {
         name: 'Jukeboxers',
         repo: {
             name: 'github',
@@ -147,11 +154,15 @@ const skill = [
 const ed = [
     {
         institution: 'Hack Reactor @ Galvanize',
-        credential: 'Advanced Software Engineering Immersive'
+        credential: 'Advanced Software Engineering Immersive',
+        location: 'San Francisco, CA',
+        date: '2018'
     },
     {
         institution: 'University of the Pacific',
-        credentials: 'BA International Affairs and Commerce, Russian Studies'
+        credential: 'BA International Affairs and Commerce, Russian Studies',
+        location: 'Stockton, CA',
+        date: '2012'
     }
 ]
 
