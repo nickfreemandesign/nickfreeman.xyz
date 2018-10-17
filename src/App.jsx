@@ -23,7 +23,7 @@ export default class App extends React.Component {
       <AppContainer>
         <Router>
             <Home path='/'/>
-            <Applications path='/apps'/>
+            <Applications path='/apps/:appName'/>
         </Router>
       </AppContainer>
     )

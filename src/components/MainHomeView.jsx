@@ -37,6 +37,9 @@ const Title = styled.div`
         padding: 2px;
         font-family: "Arial", sans-serif;
     }
+    > div:last-child{
+        width: 50px;
+    }
 `;
 
 const SectionContainer = styled.div`
@@ -57,11 +60,10 @@ const MainHomeView = (props) => {
         <MHVContainer>
             <Title>
                 <div>nick freeman</div>
-                <div>js</div>
-                <div>node</div>
-                <div>aws</div>
-                <div>node</div>
-                <div>cc</div>
+                <div>nyc</div>
+                <div>full</div>
+                <div>stack</div>
+                <div>engineer</div>
             </Title>
             <SectionContainer>
                 <LeftCol>

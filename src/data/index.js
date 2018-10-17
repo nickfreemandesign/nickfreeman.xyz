@@ -1,6 +1,7 @@
 const app = [
     {
         name: 'Restek',
+        link: 'restek',
         repo: {
             name: 'aws',
             url: 'private'
@@ -8,6 +9,7 @@ const app = [
     }, 
     {
         name: 'Dispatch Response',
+        link: 'dispatch-response',
         repo: {
             name: 'github',
             url: 'https://github.com/DispatchResponse'
@@ -15,6 +17,7 @@ const app = [
     }, 
     {
         name: 'Geogopher',
+        link: 'geogopher',
         repo: {
             name: 'github',
             url: 'https://github.com/Geogopher'
@@ -22,6 +25,7 @@ const app = [
     }, 
     {
         name: 'Nick Freeman Design',
+        link: 'nick-freeman-design',
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/'
@@ -29,6 +33,7 @@ const app = [
     }, 
     {
         name: 'Jukeboxers',
+        link: 'jukeboxers',
         repo: {
             name: 'github',
             url: 'https://github.com/Jukeboxers'
@@ -36,6 +41,7 @@ const app = [
     }, 
     {
         name: 'HTML5 Color Game',
+        link: 'html-5-color-game',
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/html5-color-game'
@@ -43,6 +49,7 @@ const app = [
     }, 
     {
         name: 'Serverless Demo',
+        link: 'serverless-demo',
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/serverless-portfolio'

@@ -1,20 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Router, Link } from "@reach/router"
 
 
 const AppItemContainer = styled.div`
-    display: flex;
     padding: 3px 0;
-    > div {
+    a {
+        text-decoration: none;
+        display: flex;
+    }
+    div {
         padding-right: 10px;
+        color: blue;
     }
 `;
 
 const AppItem = (props) => {
     return (
-        <AppItemContainer link={props.data.repo.url}>
-            <div> {props.data.name} </div>
-            <div>{`(${props.data.repo.name})`}</div>
+        <AppItemContainer>
+            <Link to={`/apps/${props.data.link}`}>
+                <div> {props.data.name} </div>
+                <div>{`(${props.data.repo.name})`}</div>
+            </Link>
         </AppItemContainer>
     )
 }

@@ -6,6 +6,9 @@ module.exports = merge(common, {
   watch: true,
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './'
-  }
+    contentBase: './',
+    historyApiFallback: {
+      index: '/index.html'
+    },
+  },
 });
