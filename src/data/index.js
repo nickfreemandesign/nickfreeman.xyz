@@ -46,72 +46,72 @@ const app = [
 const exp = [
     {
         company: 'Restek',
-        title: 'Co-Founder',
+        title: 'Technical Co-Founder',
         location: 'Fairfield, CT',
-        duration: 'January 2018 - October 2018',
+        duration: 'Jan 2018 - Oct 2018',
         details: []
     },
     {
         company: 'Hack Reactor @ Galvanize',
         title: 'Software Engineering Fellow',
         location: 'San Francisco, CA',
-        duration: 'February 2018 - September 2018',
+        duration: 'Feb 2018 - Sept 2018',
         details: []
     },
     {
         company: 'Nick Freeman Design',
         title: 'Principal Designer',
         location: 'Portland, OR',
-        duration: 'February 2017 - February 2018',
+        duration: 'Feb 2017 - Feb 2018',
         details: []
     },
     {
         company: 'Procore',
         title: 'Sales Enablement - Tech and Process',
         location: 'Carpenteria, CA',
-        duration: 'June 2016 - December 2016',
+        duration: 'Jun 2016 - Dec 2016',
         details: []
     },
     {
         company: 'Procore',
-        title: 'Business Development Representative',
+        title: 'Business Development',
         location: 'Carpenteria, CA',
-        duration: 'January 2016 - June 2016',
+        duration: 'Jan 2016 - Jun 2016',
         details: []
     },
     {
         company: 'Curvature',
         title: 'Services Systems Analyst',
         location: 'Santa Barbara, CA',
-        duration: 'August 2015 - December 2015',
+        duration: 'Aug 2015 - Dec 2015',
         details: []
     },
     {
         company: 'Kiva',
         title: 'Kiva Zip Development Intern',
         location: 'San Francisco, CA',
-        duration: 'September 2014 - February 2015',
+        duration: 'Sept 2014 - Feb 2015',
         details: []
     },
     {
         company: 'Tower Air, Inc',
         title: 'Project Manager',
         location: 'Santa Barabara, CA',
-        duration: 'July 2013 - July 2014',
+        duration: 'Jul 2013 - Jul 2014',
         details: []
     },
     {
         company: 'US Dept of State',
         title: 'Fulbright Scholar (ETA)',
         location: 'Yekaterinburg, Russia',
-        duration: 'September 2012 - June 2013',
+        duration: 'Sept 2012 - Jun 2013',
         details: []
     },
     {
         company: 'US Dept of Energy',
         title: 'Desk Officer Intern',
         location: 'Washington, D.C.',
-        duration: 'May 2011 - August 2011',
+        duration: 'May 2011 - Aug 2011',
         details: []
     }
 

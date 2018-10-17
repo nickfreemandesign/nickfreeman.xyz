@@ -1,6 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// import components
+import AppItem from './Items/AppItem'
+import ExpItem from './Items/ExpItem'
+import SkillItem from './Items/SkillItem'
+import EdItem from './Items/EdItem'
+import GenItem from './Items/GenItem'
+
 
 const SectionItemContainer = styled.div`
     border-bottom: 1px solid rgb(204,204,204);
@@ -13,33 +20,19 @@ const SectionItemContainer = styled.div`
     }
 `;
 
-const AppItem = styled.div`
-    display: flex;
-    > div {
-        padding-right: 10px;
-    }
-`;
-const ExpItem = styled.div``
-const SkillItem = styled.div``
-const EdItem = styled.div``
-const GenItem = styled.div``
 const WoopsItem = styled.div``
 
 const determineSectionItem = (props) => {
     if (props.name === 'apps') {
-        return (
-            <AppItem href={props.data.repo.url}>
-                <div> {props.data.name} </div>
-                <div>{`(${props.data.repo.name})`}</div>    
-            </AppItem>)
+        return (<AppItem data={props.data}/>)
     } else if (props.name === 'experience') {
-        return (<ExpItem> {JSON.stringify(props.data)} </ExpItem>)
+        return (<ExpItem data={props.data}/>)
     } else if (props.name === 'skills') {
-        return (<SkillItem> {JSON.stringify(props.data)} </SkillItem>)
+        return (<SkillItem data={props.data}/>)
     } else if (props.name === 'education') {
-        return (<EdItem> {JSON.stringify(props.data)} </EdItem>)
+        return (<EdItem data={props.data}/>)
     } else if (props.name === 'general') {
-        return (<GenItem> {JSON.stringify(props.data)} </GenItem>)
+        return (<GenItem data={props.data}/>)
     } else {
         return (<WoopsItem> woops </WoopsItem>)
     }
