@@ -65,7 +65,7 @@ const LinkSection = styled.div`
 const Leftbar = (props) => {
     return (
         <LeftbarContainer> 
-            <Title>nfd</Title>
+            <Title>nicholas</Title>
             <PostTo>post to nick</PostTo>
             <MyAcct>my resume</MyAcct>
             <SearchNfd placeholder={'this does nothing'}/>
