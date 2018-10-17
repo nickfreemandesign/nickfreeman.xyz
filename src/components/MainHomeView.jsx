@@ -43,7 +43,13 @@ const SectionContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
-    grid-auto-flow: dense;
+`;
+
+const LeftCol = styled.div`
+    
+`;
+const RightCol = styled.div`
+    
 `;
 
 const MainHomeView = (props) => {
@@ -58,11 +64,15 @@ const MainHomeView = (props) => {
                 <div>cc</div>
             </Title>
             <SectionContainer>
-                <Section name={'apps'} data={data.app}/>
-                <Section name={'experience'} data={data.exp}/>
-                <Section name={'skills'} data={data.skill}/>
-                <Section name={'education'} data={data.ed}/>
-                <Section name={'general'} data={data.gen}/>
+                <LeftCol>
+                    <Section name={'apps'} data={data.app}/>
+                    <Section name={'skills'} data={data.skill}/>
+                </LeftCol>
+                <RightCol>
+                    <Section name={'experience'} data={data.exp}/>
+                    <Section name={'education'} data={data.ed}/>    
+                    <Section name={'general'} data={data.gen}/>
+                </RightCol>
             </SectionContainer>
         </MHVContainer>
     )

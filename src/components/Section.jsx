@@ -6,7 +6,7 @@ import SectionItem from './SectionItem'
 
 
 const SectionContainer = styled.div`
-    
+    padding-bottom: 20px;
 `;
 
 const Title = styled.div`

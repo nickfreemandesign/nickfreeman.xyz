@@ -120,7 +120,7 @@ const exp = [
 const skill = [
     {
         name: 'languages',
-        data: ['javascript (ES5/6/7+)', 'JSX', 'python', 'sql', 'css/html', 'sass/scss' ]
+        data: ['javascript (ES 5/6/7+)', 'JSX', 'python', 'sql', 'css/html', 'sass/scss' ]
     },
     {
         name: 'libraries',
@@ -142,7 +142,6 @@ const skill = [
         name: 'deployment/task-runners',
         data: ['aws', 'travis', 'grunt', 'gulp', 'firebase', 'google cloud']
     }
-
 ]
 
 const ed = [

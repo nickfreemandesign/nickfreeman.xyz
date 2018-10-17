@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const SkillItemContainer = styled.div`
     > div:first-child{
         padding-bottom: 3px;
+        font-weight: bold
     }
 `;
 
