@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LeftbarContainer = styled.div`
-    width: 300px;
+    width: 100%;
     height: 80vh;
     background-color: rgb(244, 244, 244);
     border-left: 1px solid rgb(204,204,204);
@@ -19,14 +19,21 @@ const LeftbarContainer = styled.div`
     }
 `;
 
+const Title = styled.div`
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+`;
+
 const PostTo = styled.div`
     background-color: #ffffcc;
     width: 55%;
-    padding: 5px 0;
+    font-size: 14px;
+    padding: 2px 0;
     margin-top: 20px!important;
 `;
 
 const MyAcct = styled.div`
+    font-size: 14px;
 `;
 
 const SearchNfd = styled.input`
@@ -48,11 +55,6 @@ const SearchNfd = styled.input`
     &:-moz-placeholder { /* Firefox 18- */
         color: darkgrey;
     }
-`;
-
-const Title = styled.div`
-    font-family: "Times New Roman", Times, serif;
-    font-size: 3rem;
 `;
 
 const Leftbar = (props) => {

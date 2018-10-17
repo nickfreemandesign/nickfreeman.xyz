@@ -8,8 +8,8 @@ import Leftbar from './Leftbar'
 import Rightbar from './Rightbar'
 
 const HomeContainer = styled.div`
-  max-width: 86vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: 7fr 24fr 4fr;
   font-family: "Arial", sans-serif;
   margin: auto;
   padding: 15px;
@@ -21,6 +21,7 @@ const HomeContent = styled.div`
   height: 80vh;
   justify-content: center;
   align-items: center;
+  border: 1px solid gainsboro;
 `;
 
 export default class Home extends React.Component {

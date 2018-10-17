@@ -7,6 +7,11 @@ import { Router, Link } from "@reach/router"
 import Home from './components/Home'
 import Applications from './components/Applications'
 
+const AppContainer = styled.div`
+  width: 1050px;
+  margin: auto;
+`;
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
@@ -15,10 +20,12 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Router>
-          <Home path='/'/>
-          <Applications path='/apps'/>
-      </Router>
+      <AppContainer>
+        <Router>
+            <Home path='/'/>
+            <Applications path='/apps'/>
+        </Router>
+      </AppContainer>
     )
   }
 }
