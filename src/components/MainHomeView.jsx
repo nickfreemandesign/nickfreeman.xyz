@@ -4,6 +4,9 @@ import styled from 'styled-components';
 // import components
 import Section from './Section'
 
+// import data 
+import data from '../data'
+
 const MHVContainer = styled.div`
     height: 100%;
     grid-gap: 20px;
@@ -40,13 +43,8 @@ const SectionContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
+    grid-auto-flow: dense;
 `;
-
-const appData = [{},{},{},{},{},{}]
-const expData = [{},{},{},{},{},{}]
-const skillData = [{},{},{},{},{},{}]
-const edData = [{},{},{},{},{},{}]
-const genData = [{},{},{},{},{},{}]
 
 const MainHomeView = (props) => {
     return (
@@ -60,11 +58,11 @@ const MainHomeView = (props) => {
                 <div>cc</div>
             </Title>
             <SectionContainer>
-                <Section name={'apps'} data={appData}/>
-                <Section name={'experience'} data={expData}/>
-                <Section name={'skills'} data={skillData}/>
-                <Section name={'education'} data={edData}/>
-                <Section name={'general'} data={genData}/>
+                <Section name={'apps'} data={data.app}/>
+                <Section name={'experience'} data={data.exp}/>
+                <Section name={'skills'} data={data.skill}/>
+                <Section name={'education'} data={data.ed}/>
+                <Section name={'general'} data={data.gen}/>
             </SectionContainer>
         </MHVContainer>
     )
