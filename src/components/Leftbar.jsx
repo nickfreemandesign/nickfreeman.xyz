@@ -13,11 +13,6 @@ const LeftbarContainer = styled.div`
     > div{
         margin: 10px auto;
         color: blue;
-        &:hover{
-            text-decoration: underline;
-            color: purple;
-            cursor: pointer;
-        }
     }
 `;
 
@@ -77,7 +72,7 @@ const Leftbar = (props) => {
             <UneventCal/>
             <LinkSection>
                 <div>help, faq, abuse, legal</div>
-                <div>avoid scams & fraud</div>
+                <div>avoid silly stuff</div>
                 <div>terms of use <span>new</span></div>
                 <div>privacy policy</div>
                 <div>system status</div>

@@ -6,6 +6,7 @@ import { Router, Link } from "@reach/router"
 // import components
 import Leftbar from './Leftbar'
 import Rightbar from './Rightbar'
+import MainHomeView from './MainHomeView'
 
 const HomeContainer = styled.div`
   display: grid;
@@ -21,7 +22,6 @@ const HomeContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid gainsboro;
 `;
 
 export default class Home extends React.Component {
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
       <HomeContainer>
         <Leftbar/>
         <HomeContent>
-          wussup home content 
+          <MainHomeView/>
         </HomeContent> 
         <Rightbar/>
       </HomeContainer>
