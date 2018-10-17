@@ -17,8 +17,8 @@ const HomeContainer = styled.div`
 
 const HomeContent = styled.div`
   width: 100%;
+  height: 100%;
   display: flex;
-  height: 80vh;
   justify-content: center;
   align-items: center;
   border: 1px solid gainsboro;

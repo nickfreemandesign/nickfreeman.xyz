@@ -6,7 +6,6 @@ import UneventCal from './UneventCal'
 
 const LeftbarContainer = styled.div`
     width: 100%;
-    height: 80vh;
     background-color: rgb(244, 244, 244);
     border-left: 1px solid rgb(204,204,204);
     border-right: 1px solid rgb(204,204,204);
@@ -60,6 +59,14 @@ const SearchNfd = styled.input`
     }
 `;
 
+const LinkSection = styled.div`
+    font-size: 14px;
+    padding-top: 20px;
+    > div {
+        padding: 5px 0;
+    }
+`;
+
 const Leftbar = (props) => {
     return (
         <LeftbarContainer> 
@@ -68,6 +75,23 @@ const Leftbar = (props) => {
             <MyAcct>my account</MyAcct>
             <SearchNfd placeholder={'this does nothing'}/>
             <UneventCal/>
+            <LinkSection>
+                <div>help, faq, abuse, legal</div>
+                <div>avoid scams & fraud</div>
+                <div>terms of use <span>new</span></div>
+                <div>privacy policy</div>
+                <div>system status</div>
+            </LinkSection>
+            <LinkSection>
+                <div>about nickfreeman</div>
+                <div>nickfreeman is desiring</div>
+                <div>nickfreeman blog</div>
+                <div>best-of-nickfreeman</div>
+                <div>nickfreeman TV</div>
+                <div>nickfreeman "joe"</div>
+                <div>nick connects</div>
+            </LinkSection>
+            
         </LeftbarContainer>
     )
 }
