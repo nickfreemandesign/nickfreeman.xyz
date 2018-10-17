@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// import components
+import UneventCal from './UneventCal'
+
 const LeftbarContainer = styled.div`
     width: 100%;
     height: 80vh;
@@ -64,6 +67,7 @@ const Leftbar = (props) => {
             <PostTo>post to nick</PostTo>
             <MyAcct>my account</MyAcct>
             <SearchNfd placeholder={'this does nothing'}/>
+            <UneventCal/>
         </LeftbarContainer>
     )
 }
