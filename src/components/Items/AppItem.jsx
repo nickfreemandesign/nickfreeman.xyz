@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const AppItemContainer = styled.div`
     display: flex;
+    padding: 3px 0;
     > div {
         padding-right: 10px;
     }

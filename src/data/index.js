@@ -60,7 +60,7 @@ const exp = [
     },
     {
         company: 'Nick Freeman Design',
-        title: 'Principal Designer',
+        title: 'Full Stack Engineer',
         location: 'Portland, OR',
         duration: 'Feb 2017 - Feb 2018',
         details: []
@@ -120,27 +120,27 @@ const exp = [
 const skill = [
     {
         name: 'languages',
-        data: ['Javascript (ES5/6/7+, JSX', 'Python', 'SQL', 'CSS/HTML' ]
+        data: ['javascript (ES5/6/7+)', 'JSX', 'python', 'sql', 'css/html', 'sass/scss' ]
     },
     {
         name: 'libraries',
-        data: ['Redux', 'jQuery', 'Underscore', 'Semantic UI', 'Material UI', 'Styled-Components', 'Bootstrap', 'Pandas', 'NumPy', 'BeautifulSoup', 'NLP']
+        data: ['redux', 'jQuery', 'underscore', 'semantic ui', 'material ui', 'styled-components', 'bootstrap 3/4', 'pandas', 'numpy', 'beautifulsoup', 'nlp']
     },
     {
         name: 'front-end frameworks',
-        data: ['React', 'Angular', 'Backbone']
+        data: ['react', 'angular', 'backbone']
     },
     {
         name: 'back-end frameworks',
-        data: ['Node', 'Express', 'AWS']
+        data: ['node', 'express', 'aws']
     },
     {
         name: 'databases',
-        data: ['MySQL', 'PostgreSQL', 'SQLite', 'MongoDB', 'Sequelize ORM', 'Bookshelf ORM', 'Mongoose ORM']
+        data: ['mySQL', 'postgres', 'sqlite', 'mongodb', 'sequelize orm', 'bookshelf orm', 'mongoose orm']
     },
     {
-        name: 'deployment/automation',
-        data: ['AWS', 'Travis', 'CircleCI', 'Grunt', 'Gulp', 'Firebase', 'Google Cloud']
+        name: 'deployment/task-runners',
+        data: ['aws', 'travis', 'grunt', 'gulp', 'firebase', 'google cloud']
     }
 
 ]
