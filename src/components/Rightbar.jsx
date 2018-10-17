@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const RSidebar = (props) => {
+const Rightbar = (props) => {
     return (
-        <div> RSidebar </div>
+        <div> Rightbar </div>
     )
 }
 
-module.exports = RSidebar
+module.exports = Rightbar
