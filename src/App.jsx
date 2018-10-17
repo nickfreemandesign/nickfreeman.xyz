@@ -3,6 +3,10 @@ import axios from 'axios';
 import styled from 'styled-components';
 import { Router, Link } from "@reach/router"
 
+// import components
+import Home from './components/Home'
+import Applications from './components/Applications'
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
@@ -11,9 +15,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
-          sahdu
-      </div>
+      <Router>
+          <Home path='/'/>
+          <Applications path='/apps'/>
+      </Router>
     )
   }
 }
