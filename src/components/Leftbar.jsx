@@ -67,7 +67,7 @@ const Leftbar = (props) => {
         <LeftbarContainer> 
             <Title>nfd</Title>
             <PostTo>post to nick</PostTo>
-            <MyAcct>my account</MyAcct>
+            <MyAcct>my resume</MyAcct>
             <SearchNfd placeholder={'this does nothing'}/>
             <UneventCal/>
             <LinkSection>

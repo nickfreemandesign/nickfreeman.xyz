@@ -38,9 +38,15 @@ const Title = styled.div`
 
 const SectionContainer = styled.div`
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
 `;
+
+const appData = [{},{},{},{},{},{}]
+const expData = [{},{},{},{},{},{}]
+const skillData = [{},{},{},{},{},{}]
+const edData = [{},{},{},{},{},{}]
+const genData = [{},{},{},{},{},{}]
 
 const MainHomeView = (props) => {
     return (
@@ -54,11 +60,11 @@ const MainHomeView = (props) => {
                 <div>cc</div>
             </Title>
             <SectionContainer>
-                <Section name={'apps'}/>
-                <Section name={'skills'}/>
-                <Section name={'experience'}/>
-                <Section name={'education'}/>
-                <Section name={'general'}/>
+                <Section name={'apps'} data={appData}/>
+                <Section name={'experience'} data={expData}/>
+                <Section name={'skills'} data={skillData}/>
+                <Section name={'education'} data={edData}/>
+                <Section name={'general'} data={genData}/>
             </SectionContainer>
         </MHVContainer>
     )

@@ -1,18 +1,41 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// import components
+import SectionItem from './SectionItem'
+
 
 const SectionContainer = styled.div`
+    
+`;
+
+const Title = styled.div`
     display: flex;
-    justify-content: center;
+    margin: auto;
+    height: 30px;
+    width: 100%;
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
     align-items: center;
-    border: 1px solid gainsboro;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    border-top: 1px solid rgb(204,204,204);
+    border-bottom: 1px solid rgb(204,204,204);
+    color: blue;
 `;
 
 const Section = (props) => {
     return (
         <SectionContainer>
-            {props.name}
+            <Title>{props.name}</Title>
+            {props.data.map( (item, idx) => {
+                return (
+                    <SectionItem 
+                        name={props.name} 
+                        data={item}
+                        key={`${props.name}-${idx}`}/>)
+            })}
         </SectionContainer>
     )
 }
