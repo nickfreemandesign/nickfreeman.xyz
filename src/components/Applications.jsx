@@ -4,6 +4,12 @@ import styled from 'styled-components';
 import { Router, Link } from "@reach/router"
 
 // import components
+import ReplyBar from './AppContent/ReplyBar'
+import AppTitle from './AppContent/AppTitle'
+import Carousel from './AppContent/Carousel'
+import ProjectDescription from './AppContent/Description'
+import Map from './AppContent/Map'
+import MetaTags from './AppContent/MetaTags'
 
 
 const ApplicationsContainer = styled.div`
@@ -46,6 +52,12 @@ const ApplicationsContent = styled.div`
     margin-top: 30px;
     width: 100%;
     border: 1px solid grey;
+    display: grid;
+    grid-template-areas: 'replybar  replybar '
+                         'apptitle  apptitle '
+                         'carousel  map      '
+                         'carousel  metas    '
+                         'desc      metas    ';
 `;
 
 const UrlPath = styled.div`
@@ -68,26 +80,32 @@ export default class Applications extends React.Component {
         parsedUrl = this.props.location.pathname.split('/').slice(1).join(" > ").replace(/-/g, ' ')
     }
 
-    render() {
+    render() { 
+        
         return (
             <ApplicationsContainer>
-            <Title>
-                <TitleContent>
-                    <RootIcon>
-                        <Link to="/">
-                            NF
-                        </Link>
-                    </RootIcon>
-                    <UrlPath>
-                        <Link to="/">
-                            {parsedUrl}
-                        </Link>
-                    </UrlPath>
-                </TitleContent>
-            </Title>
-            <ApplicationsContent>
-                content goes here
-            </ApplicationsContent>
+                <Title>
+                    <TitleContent>
+                        <RootIcon>
+                            <Link to="/">
+                                NF
+                            </Link>
+                        </RootIcon>
+                        <UrlPath>
+                            <Link to="/">
+                                {parsedUrl}
+                            </Link>
+                        </UrlPath>
+                    </TitleContent>
+                </Title>
+                <ApplicationsContent>
+                    <ReplyBar/>
+                    <AppTitle/>
+                    <Carousel/>
+                    <ProjectDescription/>
+                    <Map/>
+                    <MetaTags/>
+                </ApplicationsContent>
             </ApplicationsContainer>
         )
     }
