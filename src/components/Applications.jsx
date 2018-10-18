@@ -8,7 +8,7 @@ import ReplyBar from './AppContent/ReplyBar'
 import AppTitle from './AppContent/AppTitle'
 import Carousel from './AppContent/Carousel'
 import ProjectDescription from './AppContent/Description'
-import Map from './AppContent/Map'
+import AppMap from './AppContent/AppMap'
 import MetaTags from './AppContent/MetaTags'
 
 
@@ -103,7 +103,7 @@ export default class Applications extends React.Component {
                     <AppTitle/>
                     <Carousel/>
                     <ProjectDescription/>
-                    <Map/>
+                    <AppMap/>
                     <MetaTags/>
                 </ApplicationsContent>
             </ApplicationsContainer>
