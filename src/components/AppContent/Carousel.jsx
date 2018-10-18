@@ -1,16 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 const CarouselContainer = styled.div`
     grid-area: carousel;
 `;
 
-const Carousel = (props) => {
+const CarouselComponent = (props) => {
     return (
         <CarouselContainer>
-            carousel
+            <Carousel>
+                <div>
+                    <img src="assets/1.jpeg" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="assets/2.jpeg" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src="assets/3.jpeg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
         </CarouselContainer>
     )
 }
 
-module.exports = Carousel
+module.exports = CarouselComponent
