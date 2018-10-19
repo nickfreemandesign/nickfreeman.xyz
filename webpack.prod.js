@@ -12,6 +12,13 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = merge(common, {
   watch: false,
   devtool: 'source-map',
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        test: /\.js(\?.*)?$/i,
+      })
+    ]
+  },
   plugins: [
     new CompressionPlugin({
       filename: '[path].gz[query]',
@@ -20,11 +27,6 @@ module.exports = merge(common, {
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      include: /\.min\.js$/,
-      minimize: true,
-      sourceMap: true
     })
   ]
 });
