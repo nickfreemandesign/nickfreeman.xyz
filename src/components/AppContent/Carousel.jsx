@@ -12,8 +12,6 @@ const CarouselContainer = styled.div`
 `;
 
 const CarouselComponent = (props) => {
-    console.log(props.assets);
-    
     return (
         <CarouselContainer>
             <Carousel>
