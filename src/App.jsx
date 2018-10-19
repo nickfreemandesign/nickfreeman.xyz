@@ -15,14 +15,25 @@ const AppContainer = styled.div`
 export default class App extends React.Component {
   constructor(props){
     super(props);
-    this.state = {}
+    this.state = {
+      data: null,
+    }
+  }
+
+  componentWillMount() {
+    axios.get(`https://s3.amazonaws.com/nickfreemandesign/nfd.json`)
+         .then( resp => {
+           this.setState({data: resp.data})
+          })
   }
 
   render() {
     return (
       <AppContainer>
         <Router>
-            <Home path='/'/>
+            <Home 
+              path='/'
+              data={this.state.data}/>
             <Applications path='/apps/:appName'/>
         </Router>
       </AppContainer>
