@@ -18,7 +18,7 @@ const AppItemContainer = styled.div`
 const AppItem = (props) => {
     return (
         <AppItemContainer>
-            <Link to={`/apps/${props.data.link}`}>
+            <Link to={`/apps/${props.data.appLink}`}>
                 <div> {props.data.name} </div>
                 <div>{`(${props.data.repo.name})`}</div>
             </Link>

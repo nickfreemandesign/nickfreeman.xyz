@@ -8,7 +8,12 @@ const DescriptionContainer = styled.div`
 const Description = (props) => {
     return (
         <DescriptionContainer>
-            description
+            description description description description description description description description description description description description description description 
+            description description description description description description description description description description description description description description 
+            description description description description description description description description description description description description description description 
+            description description description description description description description description description description description description description description 
+            description description description description description description description description description description description description description description 
+            description description description description description description description description description description description description description description 
         </DescriptionContainer>
     )
 }

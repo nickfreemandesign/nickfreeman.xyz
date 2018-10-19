@@ -1,31 +1,59 @@
 const app = [
     {
         name: 'Restek',
-        link: 'restek',
+        appLink: 'restek',
+        title: 'Emergency Response and Analytics for Firefighters',
+        description: 'Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.',
+        technologies: {
+            frontEnd: ['react', 'webpack', 'jest', 'styled-components', 'reach router', 'workbox'],
+            backEnd: ['express', 'node', 'mocha', 'sequelize', 'postgres'],
+            deployment: ['docker', 'aws fargate', 'aws ecr', 'aws code pipeline']
+        },
         repo: {
-            name: 'aws',
-            url: 'private'
+            name: 'github',
+            url: 'https://github.com/resteksoftware'
         }
     }, 
     {
         name: 'Dispatch Response',
-        link: 'dispatch-response',
+        appLink: 'dispatch-response',
+        title: 'Mobile dispatch application to receive dispatch feed in real time',
+        description: 'Dispatch Response is a lightweight solution for first responders to receive emergency dispatches via SMS by subscribing to dispatch feeds relevant to them',
+        technologies: {
+            frontEnd: ['react', 'webpack', 'enzyme', 'styled-components', 'react-router'],
+            backEnd: ['express', 'node', 'mocha', 'sequelize', 'postgres'],
+            deployment: ['aws code deploy', 'aws code pipeline', 'aws ec2']
+        },
         repo: {
             name: 'github',
-            url: 'https://github.com/DispatchResponse'
+            url: 'https://github.com/dispatchresponse'
         }
     }, 
     {
         name: 'Geogopher',
-        link: 'geogopher',
+        appLink: 'geogopher',
+        title: 'Immersive map games to learn about the world while having fun',
+        description: 'Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– "Countdown", "Random Select", and "GeoClick", Geogopher is designed to accomodate any learning style',
+        technologies: {
+            frontEnd: ['react', 'redux','webpack', 'jest', 'sass/scss', 'react-router', 'semantic-ui'],
+            backEnd: ['express', 'node', 'sequelize', 'postgres'],
+            deployment: ['travis ci', 'aws']
+        },
         repo: {
             name: 'github',
-            url: 'https://github.com/Geogopher'
+            url: 'https://github.com/geogopher'
         }
     }, 
     {
         name: 'Nick Freeman Design',
-        link: 'nick-freeman-design',
+        appLink: 'nick-freeman-design',
+        title: 'Design, Media and Web Services',
+        description: 'Graphic design and stuff serving the portland area',
+        technologies: {
+            frontEnd: ['react', 'webpack', 'sass/scss', 'react-router', 'material-ui'],
+            backEnd: ['express', 'node', 'sequelize', 'postgres', 'google drive api', 'shutterstock api'],
+            deployment: ['aws lambda', 'netlify', 'aws s3']
+        },
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/'
@@ -33,15 +61,29 @@ const app = [
     }, 
     {
         name: 'Jukeboxers',
-        link: 'jukeboxers',
+        appLink: 'jukeboxers',
+        title: 'Putting democracy in music selection',
+        description: 'Graphic design and stuff serving the portland area',
+        technologies: {
+            frontEnd: ['react', 'webpack', 'sass/scss'],
+            backEnd: ['express', 'node', 'twilio', 'mongodb', 'spotify api'],
+            deployment: ['heroku']
+        },
         repo: {
             name: 'github',
-            url: 'https://github.com/Jukeboxers'
+            url: 'https://github.com/jukeboxers'
         }
     }, 
     {
         name: 'HTML5 Color Game',
-        link: 'html-5-color-game',
+        appLink: 'html-5-color-game',
+        title: 'a tribute to the obnoxious html5 color names',
+        description: 'Graphic design and stuff serving the portland area',
+        technologies: {
+            frontEnd: ['backbone'],
+            backEnd: ['express', 'node', 'bookshelf', 'knex', 'sqlite3'],
+            deployment: ['firebase']
+        },
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/html5-color-game'
@@ -49,7 +91,14 @@ const app = [
     }, 
     {
         name: 'Serverless Demo',
-        link: 'serverless-demo',
+        appLink: 'serverless-demo',
+        title: 'demo for setting up a serverless application',
+        description: 'i set this up to demonstatrate how to set up a serverless application',
+        technologies: {
+            frontEnd: ['react', 'webpack', 'styled-components'],
+            backEnd: ['aws lambda'],
+            deployment: ['aws s3']
+        },
         repo: {
             name: 'github',
             url: 'https://github.com/nickfreemandesign/serverless-portfolio'

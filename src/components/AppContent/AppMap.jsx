@@ -5,7 +5,10 @@ const MapContainer = styled.div`
     grid-area: map;
     height: 300px;
     width: 300px;
+    margin-left: 40px;
 `;
+
+let map;
 
 export default class AppMap extends React.Component {
     constructor(props) {

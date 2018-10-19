@@ -6,23 +6,26 @@ import { Carousel } from 'react-responsive-carousel';
 
 const CarouselContainer = styled.div`
     grid-area: carousel;
+    p.carousel-status {
+        top: 0;
+    }
 `;
+
+const img1 = require('-!file-loader?name=restek-1!../../assets/restek-1.png');
+const img2 = require('-!file-loader?name=restek-2!../../assets/restek-2.png');
 
 const CarouselComponent = (props) => {
     return (
         <CarouselContainer>
             <Carousel>
                 <div>
-                    <img src="assets/1.jpeg" />
-                    <p className="legend">Legend 1</p>
+                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png' />
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
-                    <p className="legend">Legend 2</p>
+                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png' />
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
-                    <p className="legend">Legend 3</p>
+                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png' />
                 </div>
             </Carousel>
         </CarouselContainer>

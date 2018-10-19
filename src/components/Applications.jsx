@@ -57,7 +57,7 @@ const ApplicationsContent = styled.div`
                          'apptitle  apptitle '
                          'carousel  map      '
                          'carousel  metas    '
-                         'desc      metas    ';
+                         'desc      desc    ';
 `;
 
 const UrlPath = styled.div`
