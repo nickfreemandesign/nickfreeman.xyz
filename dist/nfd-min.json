@@ -4,7 +4,7 @@
             "name": "Restek",
             "appLink": "restek",
             "title": "Emergency Response and Analytics for Firefighters",
-            "description": "<p>Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.</p><p>Multiple presentation layers were utilized in Restek- most notable being the dispatch progressive web app for mobile users as well as the desktop app for fire administration. With usage in the dispatch layer funnelling information to the administrative layer, fire personnel were able to both communicate during an emergency in real-time while gather stats about their response outcome after the response concluded.</p><p>This project was built to scale. Using best practices in Service Oriented Architecture, Restek’s core involved a message bus which would coordinate the various dispatch feeds with the departments registered on a pub-sub basis to receive feeds relevant to them.</p>",
+            "description": "Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.|Multiple presentation layers were utilized in Restek- most notable being the dispatch progressive web app for mobile users as well as the desktop app for fire administration. With usage in the dispatch layer funnelling information to the administrative layer, fire personnel were able to both communicate during an emergency in real-time while gather stats about their response outcome after the response concluded.|This project was built to scale. Using best practices in Service Oriented Architecture, Restek’s core involved a message bus which would coordinate the various dispatch feeds with the departments registered on a pub-sub basis to receive feeds relevant to them.",
             "technologies": {
                 "frontEnd": [
                     "react",
@@ -67,7 +67,7 @@
             "name": "Dispatch Response",
             "appLink": "dispatch-response",
             "title": "Mobile dispatch application to receive dispatch feed in real time",
-            "description": "<p>Dispatch Response is a lightweight solution for first responders to receive emergency dispatches via SMS by subscribing to dispatch feeds relevant to them. Every time a new dispatch event is caught by the listening server, a new record is stored in the database which fires off a process to notify subscribed users of the event over Twilio.</p>",
+            "description": "Dispatch Response is a lightweight solution for first responders to receive emergency dispatches via SMS by subscribing to dispatch feeds relevant to them. Every time a new dispatch event is caught by the listening server, a new record is stored in the database which fires off a process to notify subscribed users of the event over Twilio.",
             "technologies": {
                 "frontEnd": [
                     "react",
@@ -116,7 +116,7 @@
             "name": "Geogopher",
             "appLink": "geogopher",
             "title": "Immersive map games to learn about the world while having fun",
-            "description": "<p>Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– 'Countdown', 'Random Select', and 'GeoClick', Geogopher is designed to accommodate any learning style. Countries and regions were deliberately broken down to make each game exciting while also adhering to the definition of a country by honoring the UN member country list. Sorry, Taiwan.</p>",
+            "description": "Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– 'Countdown', 'Random Select', and 'GeoClick', Geogopher is designed to accommodate any learning style. Countries and regions were deliberately broken down to make each game exciting while also adhering to the definition of a country by honoring the UN member country list. Sorry, Taiwan.",
             "technologies": {
                 "frontEnd": [
                     "react",
@@ -189,7 +189,7 @@
             "name": "Nick Freeman Design",
             "appLink": "nick-freeman-design",
             "title": "Design, Media and Web Services",
-            "description": "<p>Nick Freeman Design offers graphic, media and web design services to small businesses looking for low to no maintenance solutions when presenting their business’ offerings. From on-site photography and promotional film content to scalable campaigns designed to define, reach and capture any target audience, small business from any industry can utilize enterprise marketing solutions without hiring a marketing department.</p> <p>This site ultimately developed into a place to showcase design and portfolio work, but also became a pipeline to stock photography and footage based on various royalty sites. This website was eventually taken down due to involvement in more complex web application development. As they say ‘you can do anything, but you cant do everything’.</p>",
+            "description": "Nick Freeman Design offers graphic, media and web design services to small businesses looking for low to no maintenance solutions when presenting their business’ offerings. From on-site photography and promotional film content to scalable campaigns designed to define, reach and capture any target audience, small business from any industry can utilize enterprise marketing solutions without hiring a marketing department.|This site ultimately developed into a place to showcase design and portfolio work, but also became a pipeline to stock photography and footage based on various royalty sites. This website was eventually taken down due to involvement in more complex web application development. As they say ‘you can do anything, but you can’t do everything’.",
             "technologies": {
                 "frontEnd": [
                     "react",
@@ -243,7 +243,7 @@
             "name": "Jukeboxers",
             "appLink": "jukeboxers",
             "title": "Putting democracy in music selection",
-            "description": "<p>Jukeboxers was a collaborative application designed to put the democracy in how users interact with playlists. By visiting the Jukeboxers application, a global playlist would render and offer users a means to upvote/downvote the next song of choice. Hooking into the Spotify API, Jukeboxers was able to offer a wide range of songs, focusing development time into the voting system.</p>",
+            "description": "Jukeboxers was a collaborative application designed to put the democracy in how users interact with playlists. By visiting the Jukeboxers application, a global playlist would render and offer users a means to upvote/downvote the next song of choice. Hooking into the Spotify API, Jukeboxers was able to offer a wide range of songs, focusing development time into the voting system.",
             "technologies": {
                 "frontEnd": [
                     "react",
@@ -276,7 +276,7 @@
             "name": "HTML5 Color Game",
             "appLink": "html-5-color-game",
             "title": "a tribute to the obnoxious html5 color names",
-            "description": "<p>This app is just as much an ode to the names alloted to HTML5 colors as it is to the Backbone.js framework. With 60 seconds on the clock, the goal of the game is to type as many HTML5 color names as you see while postponing any inquisition on who decided on the color name in the first place. Papayawhip anyone? And did anyone ask the Indians if this is the right Indianred?</p>",
+            "description": "This app is just as much an ode to the names alloted to HTML5 colors as it is to the Backbone.js framework. With 60 seconds on the clock, the goal of the game is to type as many HTML5 color names as you see while postponing any inquisition on who decided on the color name in the first place. Papayawhip anyone? And did anyone ask the Indians if this is the right Indianred?",
             "technologies": {
                 "frontEnd": [
                     "backbone"
@@ -315,7 +315,7 @@
             "name": "Serverless Demo",
             "appLink": "serverless-demo",
             "title": "demo for setting up a serverless application",
-            "description": "<p>In the age of millennials uninterested in managing their own servers, this project was spun up to demonstrate how easy it is to fetch data without putting that logic a server. For a ‘quick and dirty’ approach to fetching image data, this project renders data from a Google Drive folder, making it extremely easy to add, modify and remove images while keeping your site up to date.</p>",
+            "description": "In the age of millennials uninterested in managing their own servers, this project was spun up to demonstrate how easy it is to fetch data without putting that logic a server. For a ‘quick and dirty’ approach to fetching image data, this project renders data from a Google Drive folder, making it extremely easy to add, modify and remove images while keeping your site up to date.",
             "technologies": {
                 "frontEnd": [
                     "react",
