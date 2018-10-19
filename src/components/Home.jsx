@@ -25,8 +25,6 @@ const HomeContent = styled.div`
 `;
 
 const Home = (props) => { 
-  console.log(props.setApp);
-  
     return (
       <HomeContainer>
         <Leftbar/>

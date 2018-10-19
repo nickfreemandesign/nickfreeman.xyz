@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
-import { Router, Link } from "@reach/router"
+import { redirectTo, Link } from "@reach/router"
 
 // import components
 import ReplyBar from './AppContent/ReplyBar'
@@ -51,13 +51,12 @@ const RootIcon = styled.div`
 const ApplicationsContent = styled.div`
     margin-top: 30px;
     width: 100%;
-    border: 1px solid grey;
     display: grid;
     grid-template-areas: 'replybar  replybar '
                          'apptitle  apptitle '
                          'carousel  map      '
                          'carousel  metas    '
-                         'desc      desc    ';
+                         'desc      metas    ';
 `;
 
 const UrlPath = styled.div`
@@ -77,11 +76,18 @@ export default class Applications extends React.Component {
     }
 
     componentWillMount() {
+        if (!this.props.currApp) {
+            return redirectTo("/")
+        }
         parsedUrl = this.props.location.pathname.split('/').slice(1).join(" > ").replace(/-/g, ' ')
+    }
+    
+    componentDidMount() {
+
     }
 
     render() { 
-        console.log(this.props);
+        console.log(this.props.currApp);
         
         return (
             <ApplicationsContainer>
@@ -101,11 +107,11 @@ export default class Applications extends React.Component {
                 </Title>
                 <ApplicationsContent>
                     <ReplyBar/>
-                    <AppTitle/>
-                    <Carousel/>
-                    <ProjectDescription/>
+                    <AppTitle title={`${this.props.currApp.name} - ${this.props.currApp.title}`}/>
+                    <Carousel assets={this.props.currApp.assets}/>
+                    <ProjectDescription desc={this.props.currApp.description} repo={this.props.currApp.repo}/>
                     <AppMap/>
-                    <MetaTags/>
+                    <MetaTags tags={this.props.currApp.technologies}/>
                 </ApplicationsContent>
             </ApplicationsContainer>
         )

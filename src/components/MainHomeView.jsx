@@ -4,9 +4,6 @@ import styled from 'styled-components';
 // import components
 import Section from './Section'
 
-// import data 
-import data from '../data'
-
 const MHVContainer = styled.div`
     height: 100%;
     grid-gap: 20px;

@@ -26,14 +26,11 @@ export default class App extends React.Component {
   componentWillMount() {
     axios.get(`https://s3.amazonaws.com/nickfreemandesign/nfd-min.json`)
          .then( resp => {
-           this.setState({data: resp.data}, () => console.log(this.state))
+           this.setState({data: resp.data})
           })
   }
 
   setCurrentApp (appData) {
-    console.log('✅');
-    console.log(appData);
-    
     this.setState({currApp: appData})
   }
 
@@ -50,7 +47,7 @@ export default class App extends React.Component {
               <Applications 
                 path='/apps/:appName'
                 currApp={this.state.currApp} />
-          </Router> ) : null
+          </Router> ) : 'Loading ...'
         }
       </AppContainer>
     )

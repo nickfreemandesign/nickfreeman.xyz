@@ -11,9 +11,6 @@ const CarouselContainer = styled.div`
     }
 `;
 
-const img1 = require('-!file-loader?name=restek-1!../../assets/restek-1.png');
-const img2 = require('-!file-loader?name=restek-2!../../assets/restek-2.png');
-
 const CarouselComponent = (props) => {
     return (
         <CarouselContainer>

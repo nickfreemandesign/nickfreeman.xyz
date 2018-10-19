@@ -14,11 +14,9 @@ module.exports = merge(common, {
   devtool: 'source-map',
   plugins: [
     new CompressionPlugin({
-      asset: '[path].gz[query]',
+      filename: '[path].gz[query]',
       algorithm: 'gzip',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8
+      test: /\.(js|css|html|svg)$/
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),

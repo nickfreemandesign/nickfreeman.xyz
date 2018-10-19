@@ -1,9 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const extractSass = new ExtractTextPlugin({
-  filename: 'styles.css'
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const extractCss = new MiniCssExtractPlugin({
+  filename: "[name].css",
+  chunkFilename: "[id].css"
 });
 
 module.exports = {
@@ -25,10 +26,13 @@ module.exports = {
     }, 
     {
       test: /\.*(css|sass|scss)$/,
-      use: ExtractTextPlugin.extract({
-        fallback: 'style-loader',
-        use: ['css-loader', 'sass-loader']
-      })
+      use: [
+        {
+          loader: MiniCssExtractPlugin.loader,
+        },
+        'css-loader',
+        'sass-loader'
+      ]
     },
     {
       test: /\.(png|jpg|gif)$/,
@@ -38,7 +42,7 @@ module.exports = {
     }, ]
   },
   plugins: [
-    extractSass,
+    extractCss,
     new HtmlWebpackPlugin({
       template: path.join(path.resolve(__dirname, './'), 'index.html'),
     })
