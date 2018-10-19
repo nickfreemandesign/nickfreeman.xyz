@@ -12,18 +12,23 @@ const CarouselContainer = styled.div`
 `;
 
 const CarouselComponent = (props) => {
+    console.log(props.assets);
+    
     return (
         <CarouselContainer>
             <Carousel>
-                <div>
-                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png' />
-                </div>
-                <div>
-                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png' />
-                </div>
-                <div>
-                    <img src='https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png' />
-                </div>
+
+                {props.assets.map( (asset, idx) => {
+                    console.log(asset);
+                    
+                    return (
+                        <div key={`asset-${idx}`}>
+                            <img src={asset.img} />
+                        </div>
+                    )
+                })
+                }
+       
             </Carousel>
         </CarouselContainer>
     )

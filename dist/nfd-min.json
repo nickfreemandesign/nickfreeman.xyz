@@ -1,1 +1,521 @@
-{"applications":[{"name":"Restek","appLink":"restek","title":"Emergency Response and Analytics for Firefighters","description":"Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.","technologies":{"frontEnd":["react","webpack","jest","styled-components","reach router","workbox"],"backEnd":["express","node","mocha","sequelize","postgres"],"deployment":["docker","aws fargate","aws ecr","aws code pipeline"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/resteksoftware"}},{"name":"Dispatch Response","appLink":"dispatch-response","title":"Mobile dispatch application to receive dispatch feed in real time","description":"Dispatch Response is a lightweight solution for first responders to receive emergency dispatches via SMS by subscribing to dispatch feeds relevant to them","technologies":{"frontEnd":["react","webpack","enzyme","styled-components","react-router"],"backEnd":["express","node","mocha","sequelize","postgres"],"deployment":["aws code deploy","aws code pipeline","aws ec2"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/dispatchresponse"}},{"name":"Geogopher","appLink":"geogopher","title":"Immersive map games to learn about the world while having fun","description":"Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– 'Countdown', 'Random Select', and 'GeoClick', Geogopher is designed to accomodate any learning style","technologies":{"frontEnd":["react","redux","webpack","jest","sass/scss","react-router","semantic-ui"],"backEnd":["express","node","sequelize","postgres"],"deployment":["travis ci","aws"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/geogopher"}},{"name":"Nick Freeman Design","appLink":"nick-freeman-design","title":"Design, Media and Web Services","description":"Graphic design and stuff serving the portland area","technologies":{"frontEnd":["react","webpack","sass/scss","react-router","material-ui"],"backEnd":["express","node","sequelize","postgres","google drive api","shutterstock api"],"deployment":["aws lambda","netlify","aws s3"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/nickfreemandesign/"}},{"name":"Jukeboxers","appLink":"jukeboxers","title":"Putting democracy in music selection","description":"Graphic design and stuff serving the portland area","technologies":{"frontEnd":["react","webpack","sass/scss"],"backEnd":["express","node","twilio","mongodb","spotify api"],"deployment":["heroku"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/jukeboxers"}},{"name":"HTML5 Color Game","appLink":"html-5-color-game","title":"a tribute to the obnoxious html5 color names","description":"Graphic design and stuff serving the portland area","technologies":{"frontEnd":["backbone"],"backEnd":["express","node","bookshelf","knex","sqlite3"],"deployment":["firebase"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/nickfreemandesign/html5-color-game"}},{"name":"Serverless Demo","appLink":"serverless-demo","title":"demo for setting up a serverless application","description":"i set this up to demonstatrate how to set up a serverless application","technologies":{"frontEnd":["react","webpack","styled-components"],"backEnd":["aws lambda"],"deployment":["aws s3"]},"assets":[{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-1.png","details":""},{"img":"https://s3.amazonaws.com/nickfreemandesign/restek/restek-2.png","details":""}],"repo":{"name":"github","url":"https://github.com/nickfreemandesign/serverless-portfolio"}}],"experience":[{"company":"Restek","title":"Technical Co-Founder","location":"Fairfield, CT","duration":"Jan 2018 - Oct 2018","details":[]},{"company":"Hack Reactor @ Galvanize","title":"Software Engineering Fellow","location":"San Francisco, CA","duration":"Feb 2018 - Sept 2018","details":[]},{"company":"Nick Freeman Design","title":"Full Stack Engineer","location":"Portland, OR","duration":"Feb 2017 - Feb 2018","details":[]},{"company":"Procore","title":"Sales Enablement - Tech and Process","location":"Carpenteria, CA","duration":"Jun 2016 - Dec 2016","details":[]},{"company":"Procore","title":"Business Development","location":"Carpenteria, CA","duration":"Jan 2016 - Jun 2016","details":[]},{"company":"Curvature","title":"Services Systems Analyst","location":"Santa Barbara, CA","duration":"Aug 2015 - Dec 2015","details":[]},{"company":"Kiva","title":"Kiva Zip Development Intern","location":"San Francisco, CA","duration":"Sept 2014 - Feb 2015","details":[]},{"company":"Tower Air, Inc","title":"Project Manager","location":"Santa Barabara, CA","duration":"Jul 2013 - Jul 2014","details":[]},{"company":"US Dept of State","title":"Fulbright Scholar (ETA)","location":"Yekaterinburg, Russia","duration":"Sept 2012 - Jun 2013","details":[]},{"company":"US Dept of Energy","title":"Desk Officer Intern","location":"Washington, D.C.","duration":"May 2011 - Aug 2011","details":[]}],"skills":[{"name":"languages","data":["javascript (ES 5/6/7+)","JSX","python","sql","css/html","sass/scss"]},{"name":"libraries","data":["redux","jQuery","underscore","semantic ui","material ui","styled-components","bootstrap 3/4","pandas","numpy","beautifulsoup","nlp"]},{"name":"front-end frameworks","data":["react","angular","backbone"]},{"name":"back-end frameworks","data":["node","express","aws"]},{"name":"databases","data":["mySQL","postgres","sqlite","mongodb","sequelize orm","bookshelf orm","mongoose orm"]},{"name":"deployment/task-runners","data":["aws","travis","grunt","gulp","firebase","google cloud"]}],"education":[{"institution":"Hack Reactor @ Galvanize","credential":"Advanced Software Engineering Immersive","location":"San Francisco, CA","date":"2018"},{"institution":"University of the Pacific","credential":"BA International Affairs and Commerce, Russian Studies","location":"Stockton, CA","date":"2012"}],"general":[{"name":"language proficiencies","data":["English","Spanish","Russian"]},{"name":"other software proficiencies","data":["Photoshop","Illustrator","InDesign","After Effects","Premiere Pro","SoundBooth","Excel","GSuite"]}]}
+{
+    "applications": [
+        {
+            "name": "Restek",
+            "appLink": "restek",
+            "title": "Emergency Response and Analytics for Firefighters",
+            "description": "<p>Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.</p><p>Multiple presentation layers were utilized in Restek- most notable being the dispatch progressive web app for mobile users as well as the desktop app for fire administration. With usage in the dispatch layer funnelling information to the administrative layer, fire personnel were able to both communicate during an emergency in real-time while gather stats about their response outcome after the response concluded.</p><p>This project was built to scale. Using best practices in Service Oriented Architecture, Restek’s core involved a message bus which would coordinate the various dispatch feeds with the departments registered on a pub-sub basis to receive feeds relevant to them.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "webpack",
+                    "jest",
+                    "styled-components",
+                    "reach router",
+                    "workbox"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "mocha",
+                    "sequelize",
+                    "postgres"
+                ],
+                "deployment": [
+                    "docker",
+                    "aws fargate",
+                    "aws ecr",
+                    "aws code pipeline"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-1.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-2.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-3.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-4.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-5.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-6.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-7.png",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/resteksoftware"
+            }
+        },
+        {
+            "name": "Dispatch Response",
+            "appLink": "dispatch-response",
+            "title": "Mobile dispatch application to receive dispatch feed in real time",
+            "description": "<p>Dispatch Response is a lightweight solution for first responders to receive emergency dispatches via SMS by subscribing to dispatch feeds relevant to them. Every time a new dispatch event is caught by the listening server, a new record is stored in the database which fires off a process to notify subscribed users of the event over Twilio.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "webpack",
+                    "enzyme",
+                    "styled-components",
+                    "react-router"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "mocha",
+                    "sequelize",
+                    "postgres"
+                ],
+                "deployment": [
+                    "aws code deploy",
+                    "aws code pipeline",
+                    "aws ec2"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-1.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-2.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-3.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-4.png",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/dispatchresponse"
+            }
+        },
+        {
+            "name": "Geogopher",
+            "appLink": "geogopher",
+            "title": "Immersive map games to learn about the world while having fun",
+            "description": "<p>Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– 'Countdown', 'Random Select', and 'GeoClick', Geogopher is designed to accommodate any learning style. Countries and regions were deliberately broken down to make each game exciting while also adhering to the definition of a country by honoring the UN member country list. Sorry, Taiwan.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "redux",
+                    "webpack",
+                    "jest",
+                    "sass/scss",
+                    "react-router",
+                    "semantic-ui"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "sequelize",
+                    "postgres"
+                ],
+                "deployment": [
+                    "travis ci",
+                    "aws"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-1.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-2.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-3.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-4.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-5.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-6.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-7.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-8.gif",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-9.gif",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-10.gif",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/geogopher"
+            }
+        },
+        {
+            "name": "Nick Freeman Design",
+            "appLink": "nick-freeman-design",
+            "title": "Design, Media and Web Services",
+            "description": "<p>Nick Freeman Design offers graphic, media and web design services to small businesses looking for low to no maintenance solutions when presenting their business’ offerings. From on-site photography and promotional film content to scalable campaigns designed to define, reach and capture any target audience, small business from any industry can utilize enterprise marketing solutions without hiring a marketing department.</p> <p>This site ultimately developed into a place to showcase design and portfolio work, but also became a pipeline to stock photography and footage based on various royalty sites. This website was eventually taken down due to involvement in more complex web application development. As they say ‘you can do anything, but you cant do everything’.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "webpack",
+                    "sass/scss",
+                    "react-router",
+                    "material-ui"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "sequelize",
+                    "postgres",
+                    "google drive api",
+                    "shutterstock api"
+                ],
+                "deployment": [
+                    "aws lambda",
+                    "netlify",
+                    "aws s3"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-1.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-2.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-3.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-4.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-5.gif",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/nickfreemandesign/"
+            }
+        },
+        {
+            "name": "Jukeboxers",
+            "appLink": "jukeboxers",
+            "title": "Putting democracy in music selection",
+            "description": "<p>Jukeboxers was a collaborative application designed to put the democracy in how users interact with playlists. By visiting the Jukeboxers application, a global playlist would render and offer users a means to upvote/downvote the next song of choice. Hooking into the Spotify API, Jukeboxers was able to offer a wide range of songs, focusing development time into the voting system.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "webpack",
+                    "sass/scss"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "twilio",
+                    "mongodb",
+                    "spotify api"
+                ],
+                "deployment": [
+                    "heroku"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/jukeboxers/jukeboxers-1.png",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/jukeboxers"
+            }
+        },
+        {
+            "name": "HTML5 Color Game",
+            "appLink": "html-5-color-game",
+            "title": "a tribute to the obnoxious html5 color names",
+            "description": "<p>This app is just as much an ode to the names alloted to HTML5 colors as it is to the Backbone.js framework. With 60 seconds on the clock, the goal of the game is to type as many HTML5 color names as you see while postponing any inquisition on who decided on the color name in the first place. Papayawhip anyone? And did anyone ask the Indians if this is the right Indianred?</p>",
+            "technologies": {
+                "frontEnd": [
+                    "backbone"
+                ],
+                "backEnd": [
+                    "express",
+                    "node",
+                    "bookshelf",
+                    "knex",
+                    "sqlite3"
+                ],
+                "deployment": [
+                    "firebase"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-1.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-2.png",
+                    "details": ""
+                },
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-3.png",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/nickfreemandesign/html5-color-game"
+            }
+        },
+        {
+            "name": "Serverless Demo",
+            "appLink": "serverless-demo",
+            "title": "demo for setting up a serverless application",
+            "description": "<p>In the age of millennials uninterested in managing their own servers, this project was spun up to demonstrate how easy it is to fetch data without putting that logic a server. For a ‘quick and dirty’ approach to fetching image data, this project renders data from a Google Drive folder, making it extremely easy to add, modify and remove images while keeping your site up to date.</p>",
+            "technologies": {
+                "frontEnd": [
+                    "react",
+                    "webpack",
+                    "styled-components"
+                ],
+                "backEnd": [
+                    "aws lambda"
+                ],
+                "deployment": [
+                    "aws s3"
+                ]
+            },
+            "assets": [
+                {
+                    "img": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/serverless-demo-1.png",
+                    "details": ""
+                }
+            ],
+            "repo": {
+                "name": "github",
+                "url": "https://github.com/nickfreemandesign/serverless-portfolio"
+            }
+        }
+    ],
+    "experience": [
+        {
+            "company": "Restek",
+            "title": "Technical Co-Founder",
+            "location": "Fairfield, CT",
+            "duration": "Jan 2018 - Oct 2018",
+            "details": []
+        },
+        {
+            "company": "Hack Reactor @ Galvanize",
+            "title": "Software Engineering Fellow",
+            "location": "San Francisco, CA",
+            "duration": "Feb 2018 - Sept 2018",
+            "details": []
+        },
+        {
+            "company": "Nick Freeman Design",
+            "title": "Full Stack Engineer",
+            "location": "Portland, OR",
+            "duration": "Feb 2017 - Feb 2018",
+            "details": []
+        },
+        {
+            "company": "Procore",
+            "title": "Sales Enablement - Tech and Process",
+            "location": "Carpenteria, CA",
+            "duration": "Jun 2016 - Dec 2016",
+            "details": []
+        },
+        {
+            "company": "Procore",
+            "title": "Business Development",
+            "location": "Carpenteria, CA",
+            "duration": "Jan 2016 - Jun 2016",
+            "details": []
+        },
+        {
+            "company": "Curvature",
+            "title": "Services Systems Analyst",
+            "location": "Santa Barbara, CA",
+            "duration": "Aug 2015 - Dec 2015",
+            "details": []
+        },
+        {
+            "company": "Kiva",
+            "title": "Kiva Zip Development Intern",
+            "location": "San Francisco, CA",
+            "duration": "Sept 2014 - Feb 2015",
+            "details": []
+        },
+        {
+            "company": "Tower Air, Inc",
+            "title": "Project Manager",
+            "location": "Santa Barabara, CA",
+            "duration": "Jul 2013 - Jul 2014",
+            "details": []
+        },
+        {
+            "company": "US Dept of State",
+            "title": "Fulbright Scholar (ETA)",
+            "location": "Yekaterinburg, Russia",
+            "duration": "Sept 2012 - Jun 2013",
+            "details": []
+        },
+        {
+            "company": "US Dept of Energy",
+            "title": "Desk Officer Intern",
+            "location": "Washington, D.C.",
+            "duration": "May 2011 - Aug 2011",
+            "details": []
+        }
+    ],
+    "skills": [
+        {
+            "name": "languages",
+            "data": [
+                "javascript (ES 5/6/7+)",
+                "JSX",
+                "python",
+                "sql",
+                "css/html",
+                "sass/scss"
+            ]
+        },
+        {
+            "name": "libraries",
+            "data": [
+                "redux",
+                "jQuery",
+                "underscore",
+                "semantic ui",
+                "material ui",
+                "styled-components",
+                "bootstrap 3/4",
+                "pandas",
+                "numpy",
+                "beautifulsoup",
+                "nlp"
+            ]
+        },
+        {
+            "name": "front-end frameworks",
+            "data": [
+                "react",
+                "angular",
+                "backbone"
+            ]
+        },
+        {
+            "name": "back-end frameworks",
+            "data": [
+                "node",
+                "express",
+                "aws"
+            ]
+        },
+        {
+            "name": "databases",
+            "data": [
+                "mySQL",
+                "postgres",
+                "sqlite",
+                "mongodb",
+                "sequelize orm",
+                "bookshelf orm",
+                "mongoose orm"
+            ]
+        },
+        {
+            "name": "deployment/task-runners",
+            "data": [
+                "aws",
+                "travis",
+                "grunt",
+                "gulp",
+                "firebase",
+                "google cloud"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Hack Reactor @ Galvanize",
+            "credential": "Advanced Software Engineering Immersive",
+            "location": "San Francisco, CA",
+            "date": "2018"
+        },
+        {
+            "institution": "University of the Pacific",
+            "credential": "BA International Affairs and Commerce, Russian Studies",
+            "location": "Stockton, CA",
+            "date": "2012"
+        }
+    ],
+    "general": [
+        {
+            "name": "language proficiencies",
+            "data": [
+                "English",
+                "Spanish",
+                "Russian"
+            ]
+        },
+        {
+            "name": "other software proficiencies",
+            "data": [
+                "Photoshop",
+                "Illustrator",
+                "InDesign",
+                "After Effects",
+                "Premiere Pro",
+                "SoundBooth",
+                "Excel",
+                "GSuite"
+            ]
+        }
+    ]
+}

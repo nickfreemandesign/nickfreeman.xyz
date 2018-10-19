@@ -24,7 +24,7 @@ export default class App extends React.Component {
   }
 
   componentWillMount() {
-    axios.get(`https://s3.amazonaws.com/nickfreemandesign/nfd-min.json`)
+    axios.get(`https://s3.amazonaws.com/nickfreeman.xyz/nfd-min.json`)
          .then( resp => {
            this.setState({data: resp.data})
           })
