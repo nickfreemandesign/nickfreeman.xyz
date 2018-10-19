@@ -24,7 +24,7 @@ const WoopsItem = styled.div``
 
 const determineSectionItem = (props) => {
     if (props.name === 'apps') {
-        return (<AppItem data={props.data}/>)
+        return (<AppItem data={props.data} setApp={props.setApp}/>)
     } else if (props.name === 'experience') {
         return (<ExpItem data={props.data}/>)
     } else if (props.name === 'skills') {

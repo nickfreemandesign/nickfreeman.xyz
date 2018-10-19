@@ -24,22 +24,21 @@ const HomeContent = styled.div`
   align-items: center;
 `;
 
-export default class Home extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {}
-  }
-
-  render() { 
+const Home = (props) => { 
+  console.log(props.setApp);
+  
     return (
       <HomeContainer>
         <Leftbar/>
         <HomeContent>
-          <MainHomeView/>
+          <MainHomeView
+            setApp={props.setApp}
+            data={props.data}/>
         </HomeContent> 
         <Rightbar/>
       </HomeContainer>
     )
-  }
 }
+
+module.exports = Home
 

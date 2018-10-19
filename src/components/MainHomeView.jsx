@@ -67,13 +67,13 @@ const MainHomeView = (props) => {
             </Title>
             <SectionContainer>
                 <LeftCol>
-                    <Section name={'apps'} data={data.app}/>
-                    <Section name={'skills'} data={data.skill}/>
+                    <Section name={'apps'} data={props.data.applications} setApp={props.setApp}/>
+                    <Section name={'skills'} data={props.data.skills} setApp={props.setApp}/>
                 </LeftCol>
                 <RightCol>
-                    <Section name={'experience'} data={data.exp}/>
-                    <Section name={'education'} data={data.ed}/>    
-                    <Section name={'general'} data={data.gen}/>
+                    <Section name={'experience'} data={props.data.experience} setApp={props.setApp}/>
+                    <Section name={'education'} data={props.data.education} setApp={props.setApp}/>    
+                    <Section name={'general'} data={props.data.general} setApp={props.setApp}/>
                 </RightCol>
             </SectionContainer>
         </MHVContainer>

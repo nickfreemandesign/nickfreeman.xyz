@@ -17,25 +17,41 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       data: null,
+      currApp: null,
     }
+
+    this.setCurrentApp = this.setCurrentApp.bind(this)
   }
 
   componentWillMount() {
-    axios.get(`https://s3.amazonaws.com/nickfreemandesign/nfd.json`)
+    axios.get(`https://s3.amazonaws.com/nickfreemandesign/nfd-min.json`)
          .then( resp => {
-           this.setState({data: resp.data})
+           this.setState({data: resp.data}, () => console.log(this.state))
           })
+  }
+
+  setCurrentApp (appData) {
+    console.log('✅');
+    console.log(appData);
+    
+    this.setState({currApp: appData})
   }
 
   render() {
     return (
       <AppContainer>
-        <Router>
-            <Home 
-              path='/'
-              data={this.state.data}/>
-            <Applications path='/apps/:appName'/>
-        </Router>
+        {
+          this.state.data ? 
+          ( <Router>
+              <Home 
+                path='/'
+                data={this.state.data}
+                setApp={this.setCurrentApp} />
+              <Applications 
+                path='/apps/:appName'
+                currApp={this.state.currApp} />
+          </Router> ) : null
+        }
       </AppContainer>
     )
   }

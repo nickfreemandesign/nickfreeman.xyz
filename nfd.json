@@ -1,10 +1,10 @@
 {
-    "apps": [
+    "applications": [
         {
             "name": "Restek",
             "appLink": "restek",
             "title": "Emergency Response and Analytics for Firefighters",
-            "description": "Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical "data" points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.",
+            "description": "Restek provides real time responder information during an emergency event. Unlike traditional emergency response and firefighter performance software, Restek captures critical data points relevant to first responders during an emergency response which drives performance, eliminates manual entry, and prioritizes safety through situational awareness.",
             "technologies": {
                 "frontEnd": ["react", "webpack", "jest", "styled-components", "reach router", "workbox"],
                 "backEnd": ["express", "node", "mocha", "sequelize", "postgres"],
@@ -54,7 +54,7 @@
             "name": "Geogopher",
             "appLink": "geogopher",
             "title": "Immersive map games to learn about the world while having fun",
-            "description": "Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– "Countdown", "Random Select", and "GeoClick", Geogopher is designed to accomodate any learning style",
+            "description": "Geogopher was designed and created out of a need to learn about the world while tapping into the power of Google Maps. With three game modes– 'Countdown', 'Random Select', and 'GeoClick', Geogopher is designed to accomodate any learning style",
             "technologies": {
                 "frontEnd": ["react", "redux", "webpack", "jest", "sass/scss", "react-router", "semantic-ui"],
                 "backEnd": ["express", "node", "sequelize", "postgres"],

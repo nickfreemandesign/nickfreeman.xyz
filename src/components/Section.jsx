@@ -33,6 +33,7 @@ const Section = (props) => {
                 return (
                     <SectionItem 
                         name={props.name} 
+                        setApp={props.setApp}
                         data={item}
                         key={`${props.name}-${idx}`}/>)
             })}

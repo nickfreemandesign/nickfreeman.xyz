@@ -29,8 +29,6 @@ const RightSide = styled.div`
 `
 
 const EdItem = (props) => {
-    console.log(props);
-    
     return (
         <EdItemContainer>
             <LeftSide>
