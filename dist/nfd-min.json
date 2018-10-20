@@ -361,8 +361,8 @@
             },
             "assets": [
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/thumb/serverless-demo-3.jpg",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/serverless-demo-3.jpg",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/thumb/serverless-demo-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/serverless-demo-1.jpg",
                     "details": ""
                 }
             ],

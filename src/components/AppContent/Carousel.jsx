@@ -33,8 +33,8 @@ const CarouselComponent = (props) => {
                 {props.assets.map( (asset, idx) => {
                     
                     return (
-                        <div key={`asset-${idx}`}>
-                            <img src={asset.thumb} />
+                        <div key={`asset-${idx}`} onClick={() => props.showImg(asset.full)}>
+                            <img src={asset.thumb}/>
                         </div>
                     )
                 })

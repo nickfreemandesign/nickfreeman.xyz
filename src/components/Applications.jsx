@@ -10,6 +10,8 @@ import Carousel from './AppContent/Carousel'
 import ProjectDescription from './AppContent/Description'
 import AppMap from './AppContent/AppMap'
 import MetaTags from './AppContent/MetaTags'
+import AppImg from './AppContent/AppImg'
+
 
 
 const ApplicationsContainer = styled.div`
@@ -67,12 +69,18 @@ const UrlPath = styled.div`
     }
 `;
 
+
+
 let parsedUrl;
 
 export default class Applications extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            showImg: false,
+            imgLink: '',
+        }
+        this.toggleImg = this.toggleImg.bind(this)
     }
 
     componentWillMount() {
@@ -81,10 +89,17 @@ export default class Applications extends React.Component {
         }
         parsedUrl = this.props.location.pathname.split('/').slice(1).join(" > ").replace(/-/g, ' ')
     }
-    
-    componentDidMount() {
 
+    toggleImg(imgLink) {
+        if (!imgLink) {
+            imgLink = ''
+        }
+        this.setState({
+            showImg: !this.state.showImg,
+            imgLink: imgLink
+        })
     }
+
 
     render() { 
         console.log(this.props.currApp);
@@ -105,14 +120,20 @@ export default class Applications extends React.Component {
                         </UrlPath>
                     </TitleContent>
                 </Title>
-                <ApplicationsContent>
-                    <ReplyBar/>
-                    <AppTitle title={`${this.props.currApp.name} - ${this.props.currApp.title}`}/>
-                    <Carousel assets={this.props.currApp.assets}/>
-                    <ProjectDescription desc={this.props.currApp.description} repo={this.props.currApp.repo}/>
-                    <AppMap/>
-                    <MetaTags tags={this.props.currApp.technologies}/>
-                </ApplicationsContent>
+                { 
+                    this.state.showImg 
+                    ?
+                    <AppImg closeImg={this.toggleImg} imgLink={this.state.imgLink}/> 
+                    : 
+                    (<ApplicationsContent>
+                        <ReplyBar/>
+                        <AppTitle title={`${this.props.currApp.name} - ${this.props.currApp.title}`}/>
+                        <Carousel assets={this.props.currApp.assets} showImg={this.toggleImg}/>
+                        <ProjectDescription desc={this.props.currApp.description} repo={this.props.currApp.repo}/>
+                        <AppMap/>
+                        <MetaTags tags={this.props.currApp.technologies}/>
+                    </ApplicationsContent>)
+                }
             </ApplicationsContainer>
         )
     }
