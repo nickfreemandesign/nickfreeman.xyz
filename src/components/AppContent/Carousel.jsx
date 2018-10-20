@@ -17,6 +17,9 @@ const CarouselContainer = styled.div`
     p.carousel-status {
         top: 0;
     }
+    li.thumb {
+        max-height: 50px!important;
+    }
 
 `;
 

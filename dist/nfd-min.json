@@ -30,31 +30,38 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-1.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-2.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-2.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-2.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-3.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-3.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-4.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-4.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-4.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-5.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-5.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-5.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-6.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-6.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-6.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-7.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/restek/thumb/restek-7.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/restek/restek-7.jpg",
                     "details": ""
                 }
             ],
@@ -91,19 +98,23 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/thumb/dispatch-response-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-1.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-2.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/thumb/dispatch-response-2.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-2.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-3.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/thumb/dispatch-response-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-3.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-4.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/thumb/dispatch-response-4.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/dispatch-response/dispatch-response-4.jpg",
                     "details": ""
                 }
             ],
@@ -140,38 +151,38 @@
             },
             "assets": [
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-1.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-1.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-2.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-2.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-2.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-2.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-3.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-3.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-3.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-4.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-4.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-4.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-4.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-5.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-5.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-5.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-5.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-6.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-6.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-6.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-6.jpg",
                     "details": ""
                 },
                 {
-                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-7.png",
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-7.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/thumb/geogopher-7.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/geogopher/geogopher-7.jpg",
                     "details": ""
                 },
                 {
@@ -224,22 +235,27 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/thumb/nick-freeman-design-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-1.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-2.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/thumb/nick-freeman-design-2.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-2.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-3.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/thumb/nick-freeman-design-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-3.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-4.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/thumb/nick-freeman-design-4.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-4.jpg",
                     "details": ""
                 },
                 {
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/thumb/nick-freeman-design-5.gif",
                     "full": "https://s3.amazonaws.com/nickfreeman.xyz/nick-freeman-design/nick-freeman-design-5.gif",
                     "details": ""
                 }
@@ -273,7 +289,8 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/jukeboxers/jukeboxers-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/jukeboxers/thumb/jukeboxers-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/jukeboxers/jukeboxers-1.jpg",
                     "details": ""
                 }
             ],
@@ -304,15 +321,18 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/thumb/html-5-color-game-1.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-1.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-2.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/thumb/html-5-color-game-2.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-2.jpg",
                     "details": ""
                 },
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-3.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/thumb/html-5-color-game-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/html-5-color-game/html-5-color-game-3.jpg",
                     "details": ""
                 }
             ],
@@ -341,7 +361,8 @@
             },
             "assets": [
                 {
-                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/serverless-demo-1.png",
+                    "thumb": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/thumb/serverless-demo-3.jpg",
+                    "full": "https://s3.amazonaws.com/nickfreeman.xyz/serverless-demo/serverless-demo-3.jpg",
                     "details": ""
                 }
             ],
