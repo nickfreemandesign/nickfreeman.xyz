@@ -7,9 +7,14 @@ const DescriptionContainer = styled.div`
 `;
 
 const Description = (props) => {
+
+    let description = props.desc.split('|')
+
     return (
         <DescriptionContainer>
-            {props.desc}
+            {description.map( (desc, idx) => {
+                return (<p key={`desc${idx}`}>{desc}</p>)
+            })}
         </DescriptionContainer>
     )
 }
