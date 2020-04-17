@@ -22,8 +22,6 @@ const AppItemContainer = styled.div`
 `;
 
 const AppItem = (props) => {
-console.log(props);
-
     const { 
         appLink, 
         name,

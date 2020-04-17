@@ -30,7 +30,7 @@ export default class App extends React.Component {
   }
 
   readFromFile(){
-    const localJsonPath = path.join(__dirname, `../nfd.json`)
+    const localJsonPath = path.join(__dirname, `../dist/nfd-min.json`)
     fetch(localJsonPath)
       .then(resp => resp.json())
       .then(data => {

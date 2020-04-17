@@ -24,8 +24,6 @@ const CarouselContainer = styled.div`
 `;
 
 const CarouselComponent = (props) => {
-    console.log(props);
-    
     return (
         <CarouselContainer>
             <Carousel infiniteLoop={true}>

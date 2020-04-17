@@ -102,8 +102,6 @@ export default class Applications extends React.Component {
 
 
     render() { 
-        console.log(this.props.currApp);
-        
         return (
             <ApplicationsContainer>
                 <Title>

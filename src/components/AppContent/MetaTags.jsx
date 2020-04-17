@@ -31,8 +31,6 @@ const Tag = styled.div`
 `;
 
 const MetaTags = (props) => {
-    console.log(props);
-    
     return (
         <MetaTagsContainer>
             <div>
