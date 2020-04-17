@@ -68,7 +68,7 @@ const MainHomeView = (props) => {
                     <Section name={'skills'} data={props.data.skills} setApp={props.setApp}/>
                 </LeftCol>
                 <RightCol>
-                    <Section name={'experience'} data={props.data.experience} setApp={props.setApp}/>
+                    <Section name={'experience'} data={props.data.experience} setApp={props.setApp} toggleExpVisibility={props.toggleExpVisibility}/>
                     <Section name={'education'} data={props.data.education} setApp={props.setApp}/>    
                     <Section name={'general'} data={props.data.general} setApp={props.setApp}/>
                 </RightCol>

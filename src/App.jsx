@@ -1,11 +1,14 @@
 import React from 'react';
 import axios from 'axios';
+import path from 'path';
 import styled from 'styled-components';
 import { Router, Link } from "@reach/router"
 
 // import components
 import Home from './components/Home'
 import Applications from './components/Applications'
+
+const DEBUG = true;
 
 const AppContainer = styled.div`
   width: 1050px;
@@ -21,13 +24,52 @@ export default class App extends React.Component {
     }
 
     this.setCurrentApp = this.setCurrentApp.bind(this)
+    this.readFromFile = this.readFromFile.bind(this)
+    this.readFromS3 = this.readFromS3.bind(this)
+    this.toggleExpVisibility = this.toggleExpVisibility.bind(this)
   }
 
-  componentWillMount() {
+  readFromFile(){
+    const localJsonPath = path.join(__dirname, `../nfd.json`)
+    fetch(localJsonPath)
+      .then(resp => resp.json())
+      .then(data => {
+        const experience = data.experience.map(expItem => { return { ...expItem, isVisible: false } })
+        const output = { ...data, experience }
+        this.setState({ data: output })
+      });
+  }
+
+  readFromS3(){
     axios.get(`https://s3.amazonaws.com/nickfreeman.xyz/nfd-min.json`)
-         .then( resp => {
-           this.setState({data: resp.data})
-          })
+      .then( resp => {
+        const { data } = resp
+        const experience = data.experience.map( expItem => { return { ...expItem, isVisible: false } })
+        const output = { ...data, experience }
+        this.setState({data: output})
+      })
+  }
+
+  toggleExpVisibility(companyAndTitle) {
+    const { data } = this.state
+    const experience = data.experience.map(expItem => { 
+      const { isVisible, company, title } = expItem
+      if (company + title === companyAndTitle) {
+        return { ...expItem, isVisible: !isVisible } 
+      } else {
+        return { ...expItem, isVisible: false } 
+      }
+    })
+    const output = { ...data, experience }
+    this.setState({ data: output })
+  }
+  
+  componentDidMount() {
+    if (DEBUG) {
+      this.readFromFile()
+    } else {
+      this.readFromS3()
+    }
   }
 
   setCurrentApp (appData) {
@@ -43,7 +85,8 @@ export default class App extends React.Component {
               <Home 
                 path='/'
                 data={this.state.data}
-                setApp={this.setCurrentApp} />
+                setApp={this.setCurrentApp} 
+                toggleExpVisibility={this.toggleExpVisibility}/>
               <Applications 
                 path='/apps/:appName'
                 currApp={this.state.currApp} />

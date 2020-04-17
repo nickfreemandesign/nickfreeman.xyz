@@ -34,6 +34,7 @@ const Section = (props) => {
                     <SectionItem 
                         name={props.name} 
                         setApp={props.setApp}
+                        toggleExpVisibility={props.toggleExpVisibility}
                         data={item}
                         key={`${props.name}-${idx}`}/>)
             })}

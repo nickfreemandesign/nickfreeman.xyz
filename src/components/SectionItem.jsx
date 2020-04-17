@@ -15,8 +15,7 @@ const SectionItemContainer = styled.div`
     font-size: 14px;
     padding: 2px;
     &:hover{
-        background-color: rgb(244,244,244);
-        cursor: pointer;
+        cursor: default;
     }
 `;
 
@@ -26,7 +25,7 @@ const determineSectionItem = (props) => {
     if (props.name === 'apps') {
         return (<AppItem data={props.data} setApp={props.setApp}/>)
     } else if (props.name === 'experience') {
-        return (<ExpItem data={props.data}/>)
+        return (<ExpItem data={props.data} toggleExpVisibility={props.toggleExpVisibility}/>)
     } else if (props.name === 'skills') {
         return (<SkillItem data={props.data}/>)
     } else if (props.name === 'education') {

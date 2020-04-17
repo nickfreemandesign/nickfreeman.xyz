@@ -63,11 +63,12 @@ const LinkSection = styled.div`
 `;
 
 const Leftbar = (props) => {
+    const resumeHref = "https://docs.google.com/document/d/17ewRV8NtaWAfP8nP2uXOk3i6uSREY6n8RNGuUulKU88/edit?usp=sharing"
     return (
         <LeftbarContainer> 
             <Title>nicholas</Title>
             <PostTo>post to nick</PostTo>
-            <MyAcct>my resume</MyAcct>
+            <MyAcct><a href={resumeHref} target="_blank">my resume</a></MyAcct>
             <SearchNfd placeholder={'this does nothing'}/>
             <UneventCal/>
             <LinkSection>

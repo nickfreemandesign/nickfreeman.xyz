@@ -31,7 +31,8 @@ const Home = (props) => {
         <HomeContent>
           <MainHomeView
             setApp={props.setApp}
-            data={props.data}/>
+            data={props.data}
+            toggleExpVisibility={props.toggleExpVisibility}/>
         </HomeContent> 
         <Rightbar/>
       </HomeContainer>
