@@ -8,7 +8,7 @@ import { Router, Link } from "@reach/router"
 import Home from './components/Home'
 import Applications from './components/Applications'
 
-const DEBUG = true;
+const DEBUG = false;
 
 const AppContainer = styled.div`
   width: 1050px;
